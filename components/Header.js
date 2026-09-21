@@ -14,8 +14,8 @@ export default function Header() {
               alt="고려대학교 기술경영전문대학원"
             />
             <div className="brand-office">
-              <div className="brand-title">대학원 원우회</div>
-              <div className="brand-sub">재무국 · Finance Bureau</div>
+              <div className="brand-title">17대 원우회</div>
+              <div className="brand-sub">재무국</div>
             </div>
           </Link>
           <nav className="nav">
