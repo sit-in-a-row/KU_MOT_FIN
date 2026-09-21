@@ -63,7 +63,7 @@ export default function MealSupportPage() {
           <div className="form-actions"><button className="btn btn-red" type="submit">임시저장</button><button className="btn btn-outline" type="button" onClick={copyBandText}>BAND 문구 복사</button><button className="btn btn-muted" type="button" onClick={tryBandPublish}>BAND 전송 테스트</button></div>
           {status && <div className="status info">{status}</div>}
         </form>
-        <div className="band-preview"><label>BAND 게시 미리보기</label><pre>{bandText}</pre><div className="help" style={{marginTop:12}}>추후 BAND API access token과 band_key를 서버 환경변수로 설정하면, 현재의 “BAND 전송 테스트” 버튼을 실제 게시 기능으로 전환할 수 있다.</div></div>
+        <div className="band-preview"><label>BAND 게시 미리보기</label><pre>{bandText}</pre><div className="help" style={{marginTop:12}}>추후 BAND API access token과 band_key발급 완료 시 연동해놓겠습니당.</div></div>
       </div>
     </main>
     <Footer />
